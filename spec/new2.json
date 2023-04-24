@@ -1,25 +1,13 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Product",
-    "type": "object",
-    "properties": {
-        "person": {
-          "$ref": "new1.json#"
-        },
-        "name": {
-            "type": "string",
-            "description": "The product's name."
-        },
-        "description": {
-            "type": "string",
-            "description": "The product's description."
-        },
-        "price": {
-            "type": "number",
-            "minimum": 0,
-            "description": "The product's price in USD."
-        }
-
-    },
-    "required": ["name", "description", "price"]
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "title": "ModelB",
+  "properties": {
+    "metadata": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "metadata"
+  ]
 }
