@@ -5,7 +5,7 @@
     "type": "object",
     "properties": {
         "person": {
-          "$ref": "https://example.com/new1.schema.json"
+          "$ref": "https://example.com/new1.json"
         },
         "name": {
             "type": "string",
