@@ -5,7 +5,7 @@
     "type": "object",
     "properties": {
         "person": {
-          "$ref": "https://example.com/new1.json"
+          "$ref": "new1.json.json#"
         },
         "name": {
             "type": "string",
