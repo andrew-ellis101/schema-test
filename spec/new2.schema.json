@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+        "$id": "https://example.com/product.schema",
+    "title": "Product",
+    "type": "object",
+    "properties": {
+        "person": {
+          "$ref": "https://example.com/new1.schema.json"
+        },
+        "name": {
+            "type": "string",
+            "description": "The product's name."
+        },
+        "description": {
+            "type": "string",
+            "description": "The product's description."
+        },
+        "price": {
+            "type": "number",
+            "minimum": 0,
+            "description": "The product's price in USD."
+        }
+
+    },
+    "required": ["name", "description", "price"]
+}
